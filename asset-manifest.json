@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/clinic-dashboard/static/css/main.a9033c28.css",
+    "main.js": "/clinic-dashboard/static/js/main.58daa12c.js",
+    "index.html": "/clinic-dashboard/index.html",
+    "main.a9033c28.css.map": "/clinic-dashboard/static/css/main.a9033c28.css.map",
+    "main.58daa12c.js.map": "/clinic-dashboard/static/js/main.58daa12c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9033c28.css",
+    "static/js/main.58daa12c.js"
+  ]
+}
