@@ -1,0 +1,26 @@
+.nav-container{
+   display: flex;
+   align-items: center;
+   justify-content: space-around;
+   width: 90%;
+   height: 4.8rem;
+   margin: 0.5rem auto;
+   background: linear-gradient(-90deg, rgba(2,0,36,1) 0%, rgba(24,9,121,0.9724264705882353) 35%, rgba(0,212,255,1) 100%);
+   border-radius: 10px;
+}
+.nav-heading{
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+}
+.nav-button{
+    padding: 10px 10px;
+    background-color: #e8590c;
+    border-radius: 1rem;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+.nav-button:hover{
+    background-color: #d9480f;
+}

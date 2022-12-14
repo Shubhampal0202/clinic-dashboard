@@ -1,0 +1,72 @@
+.main-container {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    background-color: #f8f9fa;
+    padding: 6px 8px;
+    margin: 30px auto;
+    border-radius: 4px;
+    width: 95%;
+}
+
+.gap {
+    margin: 6px 0px;
+    color: orange;
+}
+
+.top-button {
+    padding: 10px;
+    margin: 4px 8px;
+    width: 70px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.top-button.selected {
+    background-color: #e8590c;
+    color: white;
+}
+
+.top-button.selected:hover {
+    background-color: #d9480f;
+}
+
+.img {
+    height: 4rem;
+    width: 4rem;
+    background-color: #e8590c;
+    border-radius: 50%;
+    border: 2px solid orange;
+}
+
+.img-date {
+    display: flex;
+    padding: 1rem 0px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.bottom-button {
+    margin: 6px 6px;
+    padding: 10px 6px;
+    width: 6.3rem;
+    border: none;
+    font-size: 0.7rem;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.bottom-button.color {
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,220,1) 100%);
+    color: white;
+}
+
+.bottom-button.color:hover {
+    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,230,1) 100%);
+}
+
+.bottom-button.normal {
+    background-color: #ced4da;
+}
