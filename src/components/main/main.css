@@ -1,31 +1,63 @@
 .main-container {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    font-size: 14px;
-    background-color: #f8f9fa;
-    padding: 6px 8px;
-    margin: 30px auto;
-    border-radius: 4px;
-    width: 95%;
+    box-sizing: border-box;
+    text-align: center;
+    width: 334px;
+    height: 259px;
+    background: #F7F7F7;
+    border-radius: 9px;
+    padding: 28px 4px;
+    margin: 10px auto;
 }
 
-.gap {
-    margin: 6px 0px;
-    color: orange;
+.content {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
 }
+
+.div1 {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.div2 {
+    margin: 6px 0px;
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #E97000;
+}
+.div3 {
+    font-family: 'Quicksand';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #000000;
+}
+
 
 .top-button {
-    padding: 10px;
-    margin: 4px 8px;
-    width: 70px;
+    width: 69.76px;
+    height: 35.44px;
+    margin: 4px 3px;
     border: none;
-    border-radius: 10px;
+    border-radius: 50px;
     cursor: pointer;
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .top-button.selected {
-    background-color: #e8590c;
-    color: white;
+    background: linear-gradient(94.33deg, #FF8412 22.44%, #FF8412 22.45%, #B1008A 124.46%);
+    color: #FFFFFF;
 }
 
 .top-button.selected:hover {
@@ -33,11 +65,9 @@
 }
 
 .img {
-    height: 4rem;
-    width: 4rem;
-    background-color: #e8590c;
+    width: 84px;
+    height: 84px;
     border-radius: 50%;
-    border: 2px solid orange;
 }
 
 .img-date {
@@ -49,22 +79,33 @@
 
 
 .bottom-button {
-    margin: 6px 6px;
+    margin: 6px 4px;
     padding: 10px 6px;
     width: 6.3rem;
     border: none;
     font-size: 0.7rem;
-    border-radius: 10px;
+    border-radius: 50px;
     cursor: pointer;
 }
 
 .bottom-button.color {
-    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,220,1) 100%);
+    background: linear-gradient(94.33deg, #850168 0%, #353862 100%);
     color: white;
 }
 
-.bottom-button.color:hover {
-    background: linear-gradient(90deg, rgba(63,94,251,1) 0%, rgba(252,70,230,1) 100%);
+.btn1 {
+    width: 105px;
+    height: 35px;
+}
+
+.btn2 {
+    width: 89px;
+    height: 35px;
+}
+
+.btn3 {
+    width: 89px;
+    height: 32px;
 }
 
 .bottom-button.normal {

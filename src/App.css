@@ -1,14 +1,14 @@
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+body {
+  background-color: lightgray;
 }
 
+
 .app-container {
-  background-color: #e9ecef;
+  background-color: #FFFFFF;
   width: 380px;
+  height: 780px;
   margin: 0px auto;
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+  border-radius: 0px 15px;
 }
 
 .back-button-container {
@@ -16,13 +16,14 @@
 }
 
 .back-button {
+  width: 341px;
+  height: 49px;
   padding: 12px;
-  width: 80%;
-  margin-bottom: 2rem;
+  margin: 0.5rem;
   font-size: 1rem;
-  font-weight: 600;
+  font-weight: 500;
   border: none;
-  background-color: #dee2e6;
+  background-color: #EDEDED;
   cursor: pointer;
   border-radius: 16px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
