@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/clinic-dashboard/static/css/main.a9033c28.css",
-    "main.js": "/clinic-dashboard/static/js/main.58daa12c.js",
+    "main.css": "/clinic-dashboard/static/css/main.bde660ad.css",
+    "main.js": "/clinic-dashboard/static/js/main.b1dae40d.js",
     "index.html": "/clinic-dashboard/index.html",
-    "main.a9033c28.css.map": "/clinic-dashboard/static/css/main.a9033c28.css.map",
-    "main.58daa12c.js.map": "/clinic-dashboard/static/js/main.58daa12c.js.map"
+    "main.bde660ad.css.map": "/clinic-dashboard/static/css/main.bde660ad.css.map",
+    "main.b1dae40d.js.map": "/clinic-dashboard/static/js/main.b1dae40d.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9033c28.css",
-    "static/js/main.58daa12c.js"
+    "static/css/main.bde660ad.css",
+    "static/js/main.b1dae40d.js"
   ]
 }
